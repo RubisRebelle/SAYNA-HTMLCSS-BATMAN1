@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+}
+.home{
+    color: white;
+    background-image: url("images/Illustrations/Bathome1.png");
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 10px;
+}
+.img-icon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid-contain{
+    padding-bottom: 400px;
+    padding-left: 30%;
+    column-gap: 350px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+}
+.batman{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+/*images 3*/
+.img-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 10px;
+}
+
+.nemesis{
+    display: flex;
+    flex-direction: row;
+}
+#bathone13{
+    width: 100px;
+}
+#bathone12{
+    padding-left: 78%;
+    width: 350px;
+}
+
+/*images justice league */
+#img-jl{
+    width: 100%;
+}
+/*section petit cadre*/
+.petitcadre{
+    padding-left: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    column-gap: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+#texte{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: gray;
+    
+}
+dd{
+    color: yellow;
+}
+/*section contact */
+.contact{
+    background-color: gray;
+    align-items: center;
+    padding: 200px;
+}
+/*section footer */
+footer{
+    text-align: center;
+    padding: 50px;
+}
+.small{
+    padding-top: 100px;
+}
+.img-icon{
+    align-items: center;
+    padding-left: 40%;
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 10px;
+}
